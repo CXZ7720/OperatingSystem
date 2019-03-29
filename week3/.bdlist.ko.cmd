@@ -1,0 +1,1 @@
+cmd_/home/kygha7205/Documents/OS/week3/bdlist.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/kygha7205/Documents/OS/week3/bdlist.ko /home/kygha7205/Documents/OS/week3/bdlist.o /home/kygha7205/Documents/OS/week3/bdlist.mod.o ;  true

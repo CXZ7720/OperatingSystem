@@ -8,8 +8,8 @@ void dfs(struct task_struct *task) {
   printk(KERN_INFO "COMM: %-20s STATE: %ld\tPID: %d\n", task->comm, task->state,
          task->pid);
 
-  list_for_each_entry((list, &cursor, sibling) { /* 1) 빈칸 채우기  : parent_child.c*/
-    dfs(*cursor); ///* 2) 빈칸 채우기 */6번째 줄에 구제체가 들어가서 여기도 넣어봄.
+  list_for_each_entry(cursor, &task->children, sibling) { /* 1) 빈칸 채우기  : parent_child.c*/
+    dfs(cursor); ///* 2) 빈칸 채우기 */6번째 줄에 구제체가 들어가서 여기도 넣어봄.
   }
 }
 

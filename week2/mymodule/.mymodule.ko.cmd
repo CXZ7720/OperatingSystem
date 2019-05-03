@@ -1,1 +1,0 @@
-cmd_/home/kygha7205/Documents/OS/week2/mymodule/mymodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/kygha7205/Documents/OS/week2/mymodule/mymodule.ko /home/kygha7205/Documents/OS/week2/mymodule/mymodule.o /home/kygha7205/Documents/OS/week2/mymodule/mymodule.mod.o ;  true

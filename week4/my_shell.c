@@ -44,6 +44,12 @@ int main(void) {
     }
 
     printf("background : %d\n", background);
+    //test
+    if(args[0] == "ls"){
+      printf("YES");
+    }
+
+
     pid_t pid = fork();
     if (pid < 0) {
       perror("Fork error");

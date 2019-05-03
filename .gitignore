@@ -1,10 +1,3 @@
-week5/.vscode/ipch/b8af9550ffc55556/list_tasks_dfs.ipch
-week5/.vscode/ipch/b8af9550ffc55556/mmap_address.bin
-week5/4_project/.vscode/ipch/b8af9550ffc55556/mmap_address.bin
-week5/4_project/.vscode/ipch/b8af9550ffc55556/list_tasks_dfs.ipch
-kernel/*
-
-
 # Created by https://www.gitignore.io/api/c,git,linux,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=c,git,linux,visualstudiocode
 
